@@ -1,0 +1,225 @@
+.nav-header{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 55px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  z-index: 100;
+  
+}
+
+.initial-header{
+  
+
+  width: 150px;
+  display: flex;
+  align-items: center;
+}
+
+.middle-header{
+
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+}
+
+
+.end-header{
+  
+  width: 180px;
+  margin-right: 5px;
+  
+}
+
+.hamburger-ico,.youtube-ico{
+
+  height: 20px;
+}
+
+.hamburger-ico{
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+
+.search-btn{
+  
+  height: 38px;
+  width: 40px;
+  padding-left: 20px;
+  padding-right: 40px;
+  margin-left: -1px;
+  
+
+  }
+
+.search-icon{
+  height: 25px;
+  
+  margin-top: 4px;
+
+  
+}
+
+
+.voice-btn{
+  height: 40px;
+  width: 40px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.voice-icon{
+  height: 25px;
+}
+
+.middle-header{
+  display: flex;
+  align-items: center;
+}
+
+.input-text-bar{
+  flex: 1; 
+  height: 34px;
+  padding-left: 5px;
+  font-size: 15px;
+  border-radius: 1px; 
+  border-style: solid;
+  width: 0;
+
+}
+
+.input-text-bar::placeholder{
+
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+
+.upload-icon{
+
+
+  height: 25px;
+  
+}
+
+
+.yt-app-icon{
+
+  height: 25px;
+}
+
+.upload,.yt-apps,.notif-yt{
+
+  cursor: pointer;
+  border: none;
+  background-color: transparent;
+  
+}
+
+
+.yt-app-icon,.yt-notif-icon, .channel-self-icon{
+
+  
+}
+
+.yt-notif-icon{
+
+  height: 25px;
+}
+
+.channel-self-icon{
+  
+  height: 35px;
+  
+  border-radius: 50rem;
+}
+
+.channel-btn{
+  border: none;
+  border-radius: 50rem;
+  cursor: pointer;
+
+}
+
+.end-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-shrink: 0;
+  
+}
+
+.notif-counter{
+
+  background-color: red;
+  border-radius: 10px;
+  color: white;
+  position: absolute;
+  top: -6px;
+  right: -2px;
+  padding: 2px 5px 2px 5px;  
+}
+
+.notification-icon-container{
+  position: relative;
+}
+
+.relative{
+
+  position: relative;
+}
+
+.relative-inlineBlock{
+    position: relative;
+ display: inline-block;
+}
+
+.absolute{
+
+  position: absolute;
+}
+
+.flex{
+  display: flex;
+}
+
+.search-btn .tool-tip{
+
+  background-color: gray;
+  color: white;
+  padding: 4px 3px 4px 3px;
+  border-radius: 2px;
+  bottom: -30px;
+  right: 2px;
+  opacity: 0;
+  z-index: 1;
+}
+
+.search-btn:hover .tool-tip{
+  opacity: 1;
+}
+
+.voice-btn .tool-tip{
+
+  background-color: gray;
+  color: white;
+  padding: 4px 3px 4px 3px;
+  border-radius: 2px;
+  bottom: -30px;
+  left: -50px;
+  opacity: 0;
+  white-space: nowrap;
+  z-index: 1;
+  
+}
+
+.voice-btn:hover .tool-tip{
+  opacity: 1;
+}

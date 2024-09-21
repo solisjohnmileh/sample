@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+
+    body{
+      height: 200rem;
+    }
+
+ .side-bar-r{
+      
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      top: 0px;
+      color: white;
+      width: 100px;
+      background-color: green;
+    }
+
+    /*
+        covers all pages
+      .side-bar-r{
+      
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      top: 0px;
+      color: white;
+      left: 0;
+      background-color: green;
+    }
+
+    */
+
+   .modal-container{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(133, 128, 128, 0.8);
+   
+   }
+
+  .modal{
+    
+
+  background-color: white;
+  }
+
+
+  </style>
+</head>
+<body>
+
+
+  <div class="side-bar-r">side-bar right</div>
+
+  <div class="modal-container">
+
+    <div class="modal">
+
+      <h1>Modal title</h1>
+      <h2>This is modal</h2>
+      <button>Close</button>
+    </div>
+
+
+
+  </div>
+
+
+</body>
+</html>
